@@ -19,7 +19,7 @@ namespace PasswordGen
         const string rc3 = "QWERTYUIOPASDFGHJKLZXCVBNM";
         const string rc4 = "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM0123456789";
         const string rc5 = "qwertyuiopasdfghjklzxcvbnm0123456789*#@^&'?!";
-        const string sPath = "save.txt";
+        const string sPath = "saved_passwords_";
         DateTime DTN;
         string sTime;
         static readonly Random rndGen = new Random();
